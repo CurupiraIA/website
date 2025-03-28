@@ -6,9 +6,8 @@ import Section from "./Section.astro";
 const description =
   "Conheça nossa equipe formada por engenheiros de software apaixonados por inovação e tecnologia de impacto";
 
-// Team images
-import p1 from "../../assets/team/t1.png";
-import p2 from "../../assets/team/t2.png";
+import p1 from "./../../assets/team/t1.jpeg";
+import p2 from "../../assets/team/t2.jpeg";
 
 const team = [
   {
@@ -25,13 +24,13 @@ const team = [
     role: "Engenheiro de Software",
     description:
       "Especialista em desenvolvimento de software e processamento de imagens",
-    link: "https://linkedin.com",
+    link: "https://www.linkedin.com/in/adilsonjunior4/",
   }
 ];
 ---
 
 <Section id="about">
-  <div class="mt-[140px]">
+  <div class="mt-[140px] mb-20">
     <SectionTitle sectionTitle="Equipe" description={description} />
     <div
       class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 grid-rows-1 gap-10"
